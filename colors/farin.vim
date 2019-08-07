@@ -23,7 +23,7 @@ if &t_Co >= 256 || has("gui_running")
     hi PreProc ctermbg=bg ctermfg=130 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
     hi Special ctermbg=bg ctermfg=137 cterm=NONE guibg=bg guifg=#a4896f gui=NONE
     hi Statement ctermbg=bg ctermfg=187 cterm=NONE guibg=bg guifg=#E0CCAE gui=NONE
-    hi String ctermbg=bg ctermfg=173 cterm=NONE guibg=bg guifg=#D47D49 gui=NONE
+    hi String ctermbg=bg ctermfg=173 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
     hi Number ctermbg=bg ctermfg=95 cterm=NONE guibg=bg guifg=#8A4B53 gui=NONE
     hi Todo ctermbg=bg ctermfg=223 cterm=bold guibg=bg guifg=#F2DDBC gui=bold
     hi Type ctermbg=bg ctermfg=130 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
@@ -101,6 +101,48 @@ if &t_Co >= 256 || has("gui_running")
     hi CtrlPPtrCursor ctermbg=bg ctermfg=137 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
     hi CtrlPMode1 ctermbg=bg ctermfg=215 cterm=NONE guibg=bg guifg=#F2A766 gui=NONE
     hi CtrlPMode2 ctermbg=bg ctermfg=137 cterm=NONE guibg=bg guifg=#A4895C gui=NONE
+
+    hi haskellType ctermbg=bg ctermfg=215 cterm=NONE guibg=bg guifg=#D47D49 gui=NONE
+    hi haskellIdentifier ctermbg=bg ctermfg=137 cterm=NONE guibg=bg guifg=#d3869b gui=NONE
+    hi haskellSeparator ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#66292F gui=NONE
+    hi haskellDelimiter ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#6B4035 gui=NONE
+    hi haskellOperators ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#FF5F4F gui=NONE
+
+    hi haskellBacktick ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellStatement ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellConditional ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+
+    hi haskellLet ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#D47D49 gui=NONE
+    hi haskellDefault ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellWhere ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#D47D49 gui=NONE
+    hi haskellBottom ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellImportKeywords ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellDeclKeyword ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
+    hi haskellDecl ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
+    hi haskellDeriving ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
+    hi haskellAssocType ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+
+    hi haskellNumber ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
+    hi haskellString ctermbg=bg ctermfg=173 cterm=NONE guibg=bg guifg=#8A5B43  gui=NONE
+    hi haskellPragma ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#553322 gui=NONE
+ 
+    hi haskellTH ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellForeignKeywords ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellKeyword ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
+    hi haskellFloat ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#BF472C gui=NONE
+    hi haskellInfix ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellQuote ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellShebang ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#553322 gui=NONE
+    hi haskellLiquid ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellQuasiQuoted ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellRecursiveDo ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#FF472C gui=NONE
+    hi haskellQuotedType ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellPreProc ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellTypeRoles ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellTypeForall ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi haskellPatternKeyword ctermbg=bg ctermfg=1 cterm=NONE guibg=bg guifg=#A67458 gui=NONE
+    hi! link haskellPatternKeyword GruvboxBlue
+
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=yellow cterm=NONE
@@ -192,5 +234,6 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi CtrlPPtrCursor ctermbg=bg ctermfg=darkgrey cterm=NONE
     hi CtrlPMode1 ctermbg=bg ctermfg=yellow cterm=NONE
     hi CtrlPMode2 ctermbg=bg ctermfg=darkgreen cterm=NONE
+
 endif
 
